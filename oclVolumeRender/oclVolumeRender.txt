@@ -1,0 +1,616 @@
+E:\嗯冲丶\大二下\并行处理\volumerRender\x64\Debug\oclVolumeRender.exe Starting...
+
+Press <f> to toggle filtering ON/OFF
+       '-' and '+' to change density (0.01 increments)
+       ']' and '[' to change brightness
+       ';' and ''' to modify transfer function offset
+       '.' and ',' to modify transfer function scale
+
+Using CL-GL Interop...
+Using Image (Texture)...
+
+Detailed Device info:
+
+  CL_DEVICE_NAME: 			GeForce GTX 960M
+  CL_DEVICE_VENDOR: 			NVIDIA Corporation
+  CL_DRIVER_VERSION: 			418.96
+  CL_DEVICE_VERSION: 			OpenCL 1.2 CUDA
+  CL_DEVICE_OPENCL_C_VERSION: 		OpenCL C 1.2 
+  CL_DEVICE_TYPE:			CL_DEVICE_TYPE_GPU
+  CL_DEVICE_MAX_COMPUTE_UNITS:		5
+  CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS:	3
+  CL_DEVICE_MAX_WORK_ITEM_SIZES:	1024 / 1024 / 64 
+  CL_DEVICE_MAX_WORK_GROUP_SIZE:	1024
+  CL_DEVICE_MAX_CLOCK_FREQUENCY:	1176 MHz
+  CL_DEVICE_ADDRESS_BITS:		64
+  CL_DEVICE_MAX_MEM_ALLOC_SIZE:		512 MByte
+  CL_DEVICE_GLOBAL_MEM_SIZE:		2048 MByte
+  CL_DEVICE_ERROR_CORRECTION_SUPPORT:	no
+  CL_DEVICE_LOCAL_MEM_TYPE:		local
+  CL_DEVICE_LOCAL_MEM_SIZE:		48 KByte
+  CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE:	64 KByte
+  CL_DEVICE_QUEUE_PROPERTIES:		CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE
+  CL_DEVICE_QUEUE_PROPERTIES:		CL_QUEUE_PROFILING_ENABLE
+  CL_DEVICE_IMAGE_SUPPORT:		1
+  CL_DEVICE_MAX_READ_IMAGE_ARGS:	256
+  CL_DEVICE_MAX_WRITE_IMAGE_ARGS:	16
+  CL_DEVICE_SINGLE_FP_CONFIG:		denorms INF-quietNaNs round-to-nearest round-to-zero round-to-inf fma 
+
+  CL_DEVICE_IMAGE <dim>			2D_MAX_WIDTH	 16384
+					2D_MAX_HEIGHT	 16384
+					3D_MAX_WIDTH	 4096
+					3D_MAX_HEIGHT	 4096
+					3D_MAX_DEPTH	 4096
+
+  CL_DEVICE_EXTENSIONS:			cl_khr_global_int32_base_atomics
+					cl_khr_global_int32_extended_atomics
+					cl_khr_local_int32_base_atomics
+					cl_khr_local_int32_extended_atomics
+					cl_khr_fp64
+					cl_khr_byte_addressable_store
+					cl_khr_icd
+					cl_khr_gl_sharing
+					cl_nv_compiler_options
+					cl_nv_device_attribute_query
+					cl_nv_pragma_unroll
+					cl_nv_d3d10_sharing
+					cl_khr_d3d10_sharing
+					cl_nv_d3d11_sharing
+					cl_nv_copy_opts
+
+
+  CL_DEVICE_COMPUTE_CAPABILITY_NV:	5.0
+  NUMBER OF MULTIPROCESSORS:		5
+  NUMBER OF CUDA CORES:			4294967291
+  CL_DEVICE_REGISTERS_PER_BLOCK_NV:	65536
+  CL_DEVICE_WARP_SIZE_NV:		32
+  CL_DEVICE_GPU_OVERLAP_NV:		CL_TRUE
+  CL_DEVICE_KERNEL_EXEC_TIMEOUT_NV:	CL_TRUE
+  CL_DEVICE_INTEGRATED_MEMORY_NV:	CL_FALSE
+  CL_DEVICE_PREFERRED_VECTOR_WIDTH_<t>	CHAR 1, SHORT 1, INT 1, LONG 1, FLOAT 1, DOUBLE 1
+
+
+ Read './data/Bucky.raw', 32768 bytes
+ Raw file data loaded...
+
+ Volume Render | W: 512  H: 512
+ Volume Render | W: 512  H: 512
+ Volume Render | W: 512  H: 512
+ Volume Render | W: 512  H: 512
+ Volume Render | W: 512  H: 512
+ Volume Render | W: 512  H: 512
+ Volume Render | W: 512  H: 512
+ Volume Render | W: 512  H: 512
+ Volume Render | W: 512  H: 512
+ Volume Render | W: 512  H: 512
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.07, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.08, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.09, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.10, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.11, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.12, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.13, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.14, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.15, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.16, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.17, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.18, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.19, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.20, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.21, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.22, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.23, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.24, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.25, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.26, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.27, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.28, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.29, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.30, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.31, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.32, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.33, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.35, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.36, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.37, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.38, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.39, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.40, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.41, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.42, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.43, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.44, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.45, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.46, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.47, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.48, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.49, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.50, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.51, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.52, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.53, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.54, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.55, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.56, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.57, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.58, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.59, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.60, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.61, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.62, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.63, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.64, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.65, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.66, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.67, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.68, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.69, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.70, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.71, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.71, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.71, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.70, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.69, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.68, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.67, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.66, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.65, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.64, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.63, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.62, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.61, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.60, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.59, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.58, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.57, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.56, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.55, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.54, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.53, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.52, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.51, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.50, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.49, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.48, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.47, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.46, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.45, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.44, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.43, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.43, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.43, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.43, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.43, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.42, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.41, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.40, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.39, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.38, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.37, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.36, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.35, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.33, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.35, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.36, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.37, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.38, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.39, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.40, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.41, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.42, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.43, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.44, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.45, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.46, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.47, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.48, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.49, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.50, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.51, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.52, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.53, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.54, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.55, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.56, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.57, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.58, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.59, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.60, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.61, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.62, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.63, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.64, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.65, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.66, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.67, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.68, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.69, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.70, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.71, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.72, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.73, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.74, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.75, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.76, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.77, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.78, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.79, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.80, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.81, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.82, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.83, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.84, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.85, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.86, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.87, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.88, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.89, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.90, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.91, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.92, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.93, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.94, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.95, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.96, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.97, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.98, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.99, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.00, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.01, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.02, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.03, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.04, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.05, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.07, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.08, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.09, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.10, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.11, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.12, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.13, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.14, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.15, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 1.14, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.13, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.12, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.11, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.10, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.09, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.08, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.07, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.05, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.04, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.03, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.02, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.01, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 1.00, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.99, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.98, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.97, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.96, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.95, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.94, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.93, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.92, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.91, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.90, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.89, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.88, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.87, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.86, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.85, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.84, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.83, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.82, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.81, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.80, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.79, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.78, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.77, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.76, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.75, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.74, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.73, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.72, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.71, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.70, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.69, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.68, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.67, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.66, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.65, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.64, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.63, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.62, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.61, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.60, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.59, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.58, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.57, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.56, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.55, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.54, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.53, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.52, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.51, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.50, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.49, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.48, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.47, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.46, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.45, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.44, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.43, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.42, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.41, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.40, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.39, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.38, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.37, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.36, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.35, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.34, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.33, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.32, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.31, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.30, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.29, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.28, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.27, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.26, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.25, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.24, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.23, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.22, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.21, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.20, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.19, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.18, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.17, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.16, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.15, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.14, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.13, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.12, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.11, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.10, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.09, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.08, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.07, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.05, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.04, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.03, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.02, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.01, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.00, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.01, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.02, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.03, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.04, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.05, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.05, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.04, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.03, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = -0.02, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = -0.01, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.00, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.01, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.02, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.03, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.04, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.05, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.07, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.08, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.09, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.10, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.11, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.11, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.11, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.11, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.11, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.10, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.09, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.08, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.07, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+ Volume Render | W: 512  H: 512
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+density = 0.06, brightness = 1.00, transferOffset = 0.00, transferScale = 1.00
+
+Starting Cleanup...
+
+E:\嗯冲丶\大二下\并行处理\volumerRender\x64\Debug\oclVolumeRender.exe Exiting...
+Press <Enter> to Quit
+-----------------------------------------------------------
